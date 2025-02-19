@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+}
+
+main {
+  margin: auto;
+}
+
+#blocker {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+#caseStudy {
+  display: none;
+}
+
+.hidden {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  color: #2e2e2e;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+}
+
+strong {
+  color: #2e2e2e;
+}
+
+.hero-section {
+  height: 775px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 2rem;
+  color: #2e2e2e;
+}
+
+.hero-copy {
+  width: 495px;
+  align-self: self-end;
+  justify-self: center;
+  text-align: center;
+}
+
+.hero-section h1 {
+  margin: 0;
+  color: #2e2e2e;
+}
+
+.hero-section img {
+  height: auto;
+  width: 800px;
+  justify-self: center;
+}
+
+.section {
+  display: grid;
+  max-width: 1000px;
+  margin: 75px auto 75px auto;
+  padding: 0 16px;
+  grid-template-columns: 1fr;
+
+  line-height: 1.75rem;
+}
+
+.overview {
+  background-color: #e8f2ff;
+  padding: 5px 0 15px 0;
+}
+
+.mockups {
+  background-color: #edf0f7;
+  height: auto;
+  width: 100%;
+}
+
+.mockups img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .hero-section img {
+    height: auto;
+    width: 100%;
+    justify-self: center;
+  }
+
+  .overview {
+    padding: 15px 0;
+  }
+}
